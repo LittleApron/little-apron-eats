@@ -11,8 +11,12 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     hmr: {
       port: 8080,
+      overlay: false,
     },
     cors: true,
+    watch: {
+      usePolling: true,
+    },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
