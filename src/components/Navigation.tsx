@@ -3,6 +3,7 @@ import logoImage from "@/assets/little-apron-logo.jpg";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,8 +18,7 @@ const Navigation = () => {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Menu', href: '#menu' },
-    { label: 'Location', href: '#location' },
-    { label: 'Reviews', href: '#reviews' }
+    { label: 'Location', href: '#location' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -28,6 +28,7 @@ const Navigation = () => {
     } else {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -67,13 +68,36 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button className={`p-2 ${isScrolled ? 'text-coffee-dark' : 'text-warm-white'}`}>
+            <button 
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`p-2 ${isScrolled ? 'text-coffee-dark' : 'text-warm-white'}`}
+            >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                  d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
               </svg>
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border">
+            <div className="container mx-auto px-6 py-4">
+              <div className="flex flex-col space-y-4">
+                {navItems.map((item) => (
+                  <button
+                    key={item.label}
+                    onClick={() => scrollToSection(item.href)}
+                    className="text-left text-coffee-dark hover:opacity-75 transition-colors py-2"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
