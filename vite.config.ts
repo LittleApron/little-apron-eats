@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/little-apron-eats/",
+  base: mode === "production" ? "/little-apron-eats/" : "/",
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
   ),
