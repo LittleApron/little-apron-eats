@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Location = () => {
   const address = "6, Crown Colonnade, Reading RG1 5BA";
   const mapUrl =
-    "https://www.google.com/maps/place/6,+Crown+Colonnade,+City+Centre,+Reading+RG1+5BA/@51.4528709,-0.9496808,20z/data=!4m15!1m8!3m7!1s0x48769b2dbe30d503:0xf8ddefcdcf68f308!2sReading+East,+Reading+RG4+6LQ!3b1!8m2!3d51.46!4d-0.95!16zL20vMDRiazQw!3m5!1s0x48769b346ff1200d:0x23ff0b43ea3b4e11!8m2!3d51.4526689!4d-0.9492496!16s%2Fg%2F11s5zw2lf5?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D";
+    "https://www.google.com/maps/place/Early+Cafe/@51.4529363,-0.9494534,19z/data=!4m10!1m2!2m1!1searly+cafe+reading!3m6!1s0x48769b347b100685:0x95d81b4f517f23c5!8m2!3d51.4526689!4d-0.9492496!15sChJlYXJseSBjYWZlIHJlYWRpbmciA4gBAVoUIhJlYXJseSBjYWZlIHJlYWRpbmeSAQRjYWZlqgF2Cg0vZy8xMWZzeV84XzZ0Cg0vZy8xMWc2ajk5Zmx6CgsvZy8xdjQxeno1cxABKg4iCmVhcmx5IGNhZmUoADIfEAEiGy-khZ1WDN1oiLYk4Djbk6Tdre0rH5soGYqkxzIWEAIiEmVhcmx5IGNhZmUgcmVhZGluZ-ABAA!16s%2Fg%2F11g6j99flz?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D";
 
   return (
     <section id="location" className="py-20">
