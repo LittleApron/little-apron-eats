@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from 'react';
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Menu from "@/components/Menu";
+import Location from "@/components/Location";
+import Reviews from "@/components/Reviews";
+import Footer from "@/components/Footer";
+import FloatingOrderButton from "@/components/FloatingOrderButton";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const Index = () => {
+  useScrollAnimation();
+
+  useEffect(() => {
+    // Set home section ID for navigation
+    const heroSection = document.querySelector('section');
+    if (heroSection) {
+      heroSection.id = 'home';
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navigation />
+      <Hero />
+      <About />
+      <Menu />
+      <Location />
+      <Reviews />
+      <Footer />
+      <FloatingOrderButton />
     </div>
   );
 };
