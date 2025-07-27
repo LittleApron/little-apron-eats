@@ -2,17 +2,16 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Location = () => {
   const address = "6, Crown Colonnade, City Centre, Reading RG1 5BA";
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.1234567!2d-0.9876543!3d51.4567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8b74f7%3A0x4f8e5d9c2b1a0e3f!2s6%20Crown%20Colonnade%2C%20Reading%20RG1%205BA%2C%20UK!5e0!3m2!1sen!2suk!4v1234567890123!5m2!1sen!2suk";
+  const mapUrl =
+    "https://www.google.com/maps/place/6,+Crown+Colonnade,+City+Centre,+Reading+RG1+5BA/@51.4528709,-0.9496808,20z/data=!4m15!1m8!3m7!1s0x48769b2dbe30d503:0xf8ddefcdcf68f308!2sReading+East,+Reading+RG4+6LQ!3b1!8m2!3d51.46!4d-0.95!16zL20vMDRiazQw!3m5!1s0x48769b346ff1200d:0x23ff0b43ea3b4e11!8m2!3d51.4526689!4d-0.9492496!16s%2Fg%2F11s5zw2lf5?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D";
 
   return (
     <section id="location" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-coffee-dark mb-4">
-            Find Us
-          </h2>
+          <h2 className="text-4xl font-bold text-coffee-dark mb-4">Find Us</h2>
           <p className="text-lg text-muted-foreground">
-            Located in the heart of Reading's city centre
+            Located in the heart of Reading's East
           </p>
         </div>
 
@@ -26,8 +25,16 @@ const Location = () => {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <svg className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                    <svg
+                      className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                     <div>
                       <p className="font-medium text-coffee-dark">Address</p>
@@ -36,11 +43,21 @@ const Location = () => {
                   </div>
 
                   <div className="flex items-start space-x-3">
-                    <svg className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+                    <svg
+                      className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                     <div>
-                      <p className="font-medium text-coffee-dark">Opening Hours</p>
+                      <p className="font-medium text-coffee-dark">
+                        Opening Hours
+                      </p>
                       <div className="text-muted-foreground space-y-1">
                         <p>Monday - Friday: 7:00 AM - 3:00 PM</p>
                         <p>Saturday: 8:00 AM - 4:00 PM</p>
@@ -50,7 +67,11 @@ const Location = () => {
                   </div>
 
                   <div className="flex items-start space-x-3">
-                    <svg className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg
+                      className="w-5 h-5 text-coffee-medium mt-1 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                     <div>
@@ -69,13 +90,16 @@ const Location = () => {
                 </h3>
                 <div className="space-y-3 text-muted-foreground">
                   <p>
-                    <strong className="text-coffee-dark">By Train:</strong> Reading Station is just a 5-minute walk away
+                    <strong className="text-coffee-dark">By Train:</strong>{" "}
+                    Reading Station is just a 5-minute walk away
                   </p>
                   <p>
-                    <strong className="text-coffee-dark">By Car:</strong> Multiple parking options available in the city centre
+                    <strong className="text-coffee-dark">By Car:</strong>{" "}
+                    Multiple parking options available in the city centre
                   </p>
                   <p>
-                    <strong className="text-coffee-dark">By Bus:</strong> Well-connected bus routes stop nearby
+                    <strong className="text-coffee-dark">By Bus:</strong>{" "}
+                    Well-connected bus routes stop nearby
                   </p>
                 </div>
               </CardContent>

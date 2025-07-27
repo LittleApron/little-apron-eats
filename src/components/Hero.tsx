@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const scrollToMenu = () => {
-    document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
@@ -26,22 +26,26 @@ const Hero = () => {
             All Day English Breakfast & Coffee
           </p>
           <p className="text-lg text-cream/90 mb-8 max-w-2xl mx-auto">
-            Experience the warmth of traditional English breakfast served all day, 
-            paired with expertly crafted coffee in the heart of Reading.
+            Experience the warmth of traditional English breakfast served all
+            day, paired with expertly crafted coffee in the East of Reading.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               onClick={scrollToMenu}
               size="lg"
               className="bg-gradient-coffee hover:opacity-90 text-primary-foreground px-8 py-4 text-lg"
             >
               View Our Menu
             </Button>
-            <Button 
+            <Button
               variant="outline"
               size="lg"
               className="border-cream text-cream hover:bg-cream hover:text-coffee-dark px-8 py-4 text-lg"
-              onClick={() => document.getElementById('location')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() =>
+                document
+                  .getElementById("location")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
             >
               Find Us
             </Button>
