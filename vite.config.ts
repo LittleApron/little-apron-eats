@@ -8,8 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    hmr: {
+      clientPort: 8080
+    }
   },
-  base: "/little-apron-eats/",
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
   ),
