@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const Location = () => {
-  const address = "6, Crown Colonnade, City Centre, Reading RG1 5BA";
+  const address = "6, Crown Colonnade, Reading RG1 5BA";
   const mapUrl =
     "https://www.google.com/maps/place/6,+Crown+Colonnade,+City+Centre,+Reading+RG1+5BA/@51.4528709,-0.9496808,20z/data=!4m15!1m8!3m7!1s0x48769b2dbe30d503:0xf8ddefcdcf68f308!2sReading+East,+Reading+RG4+6LQ!3b1!8m2!3d51.46!4d-0.95!16zL20vMDRiazQw!3m5!1s0x48769b346ff1200d:0x23ff0b43ea3b4e11!8m2!3d51.4526689!4d-0.9492496!16s%2Fg%2F11s5zw2lf5?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D";
 
@@ -79,28 +79,6 @@ const Location = () => {
                       <p className="text-muted-foreground">Coming soon</p>
                     </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="coffee-card">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-coffee-dark mb-4">
-                  Getting Here
-                </h3>
-                <div className="space-y-3 text-muted-foreground">
-                  <p>
-                    <strong className="text-coffee-dark">By Train:</strong>{" "}
-                    Reading Station is just a 5-minute walk away
-                  </p>
-                  <p>
-                    <strong className="text-coffee-dark">By Car:</strong>{" "}
-                    Multiple parking options available in the city centre
-                  </p>
-                  <p>
-                    <strong className="text-coffee-dark">By Bus:</strong>{" "}
-                    Well-connected bus routes stop nearby
-                  </p>
                 </div>
               </CardContent>
             </Card>
