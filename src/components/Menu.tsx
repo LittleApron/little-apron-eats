@@ -11,6 +11,9 @@ const Menu = () => {
             Fresh ingredients, traditional recipes, and modern presentation. Our
             menu focuses on the perfect all-day English breakfast experience.
           </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            COMING SOON
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
