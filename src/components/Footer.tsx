@@ -28,8 +28,8 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-cream/80">
               <p>6, Crown Colonnade</p>
               <p>Reading RG1 5BA</p>
-              <p>Phone: Coming soon</p>
-              <p>Email: calllittleapron@gmail.com</p>
+              <p>Phone: 0118 966 6665</p>
+              <p>Email: contactlittleapron@gmail.com</p>
             </div>
           </div>
 
@@ -38,16 +38,12 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Opening Hours</h3>
             <div className="space-y-2 text-sm text-cream/80">
               <div className="flex justify-between">
-                <span>Mon - Fri:</span>
-                <span>7:00 AM - 3:00 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Saturday:</span>
+                <span>Mon - Sat:</span>
                 <span>8:00 AM - 4:00 PM</span>
               </div>
               <div className="flex justify-between">
                 <span>Sunday:</span>
-                <span>9:00 AM - 3:00 PM</span>
+                <span>9:00 AM - 4:00 PM</span>
               </div>
             </div>
           </div>
@@ -72,7 +68,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-sm text-cream/60">
-              © 2024 Little Apron. All rights reserved.
+              © 2025 Little Apron. All rights reserved.
             </p>
           </div>
         </div>

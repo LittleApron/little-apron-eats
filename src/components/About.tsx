@@ -1,4 +1,4 @@
-import breakfastImage from "@/assets/english-breakfast.jpg";
+// import breakfastImage from "@/assets/english-breakfast.jpg";
 
 const About = () => {
   return (
@@ -36,17 +36,17 @@ const About = () => {
             </div>
           </div>
 
-          <div className="relative">
+          {/* <div className="relative">
             <img
               src={breakfastImage}
               alt="Traditional English Breakfast"
               className="rounded-lg shadow-coffee w-full h-96 object-cover coffee-card"
             />
             <div className="absolute -bottom-6 -right-6 bg-gradient-coffee text-warm-white p-6 rounded-lg shadow-coffee">
-              <p className="text-sm font-medium">Est. 2024</p>
+              <p className="text-sm font-medium">Est. 2025</p>
               <p className="text-xs opacity-90">Serving Reading</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

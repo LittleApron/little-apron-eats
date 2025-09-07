@@ -2,8 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Location = () => {
   const address = "6, Crown Colonnade, Reading RG1 5BA";
-  const mapUrl =
-    "https://www.google.com/maps/place/Early+Cafe/@51.4529363,-0.9494534,19z/data=!4m10!1m2!2m1!1searly+cafe+reading!3m6!1s0x48769b347b100685:0x95d81b4f517f23c5!8m2!3d51.4526689!4d-0.9492496!15sChJlYXJseSBjYWZlIHJlYWRpbmciA4gBAVoUIhJlYXJseSBjYWZlIHJlYWRpbmeSAQRjYWZlqgF2Cg0vZy8xMWZzeV84XzZ0Cg0vZy8xMWc2ajk5Zmx6CgsvZy8xdjQxeno1cxABKg4iCmVhcmx5IGNhZmUoADIfEAEiGy-khZ1WDN1oiLYk4Djbk6Tdre0rH5soGYqkxzIWEAIiEmVhcmx5IGNhZmUgcmVhZGluZ-ABAA!16s%2Fg%2F11g6j99flz?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D";
+  const mapUrl = "https://maps.app.goo.gl/T7ZtYjNcsFazuxGp9";
 
   return (
     <section id="location" className="py-20">
@@ -59,9 +58,8 @@ const Location = () => {
                         Opening Hours
                       </p>
                       <div className="text-muted-foreground space-y-1">
-                        <p>Monday - Friday: 7:00 AM - 3:00 PM</p>
-                        <p>Saturday: 8:00 AM - 4:00 PM</p>
-                        <p>Sunday: 9:00 AM - 3:00 PM</p>
+                        <p>Monday - Saturday: 8:00 AM - 4:00 PM</p>
+                        <p>Sunday: 9:00 AM - 4:00 PM</p>
                       </div>
                     </div>
                   </div>
@@ -76,7 +74,7 @@ const Location = () => {
                     </svg>
                     <div>
                       <p className="font-medium text-coffee-dark">Contact</p>
-                      <p className="text-muted-foreground">Coming soon</p>
+                      <p className="text-muted-foreground">0118 966 6665</p>
                     </div>
                   </div>
                 </div>
