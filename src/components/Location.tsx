@@ -2,7 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Location = () => {
   const address = "6, Crown Colonnade, Reading RG1 5BA";
-  const mapUrl = "https://maps.app.goo.gl/T7ZtYjNcsFazuxGp9";
+  const mapUrl =
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.3013446610566!2d-0.9520913234445612!3d51.45262347180099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769b45168af42d%3A0xdac79d433cae6c96!2sLittle%20Apron!5e0!3m2!1sen!2suk!4v1757276344604!5m2!1sen!2suk";
 
   return (
     <section id="location" className="py-20">
