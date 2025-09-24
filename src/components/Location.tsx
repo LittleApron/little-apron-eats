@@ -75,7 +75,7 @@ const Location = () => {
                     </svg>
                     <div>
                       <p className="font-medium text-coffee-dark">Contact</p>
-                      <p className="text-muted-foreground">0118 966 6665</p>
+                      <p className="text-muted-foreground">0118 229 4746</p>
                     </div>
                   </div>
                 </div>

@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-cream/80">
               <p>6, Crown Colonnade</p>
               <p>Reading RG1 5BA</p>
-              <p>Phone: 0118 966 6665</p>
+              <p>Phone: 0118 229 4746</p>
               <p>Email: contactlittleapron@gmail.com</p>
             </div>
           </div>
