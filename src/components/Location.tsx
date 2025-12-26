@@ -68,6 +68,7 @@ const Location = () => {
                       </p>
                       <div className="text-muted-foreground space-y-1">
                         <p>Monday - Sunday: 9:00 AM - 3:00 PM</p>
+                        <p>1 January 2026: closed</p>
                       </div>
                     </div>
                   </div>
