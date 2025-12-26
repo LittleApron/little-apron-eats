@@ -49,7 +49,7 @@ const Footer = () => {
               <div className="flex justify-between">
                 <span>Monday - Sunday over 2025 festive season:</span>
                 <span>9:00 AM - 3:00 PM</span>
-                <span>26 December 2025 & 1 January 2026 - Closed</span>
+                <p>26 December 2025 & 1 January 2026 - Closed</p>
               </div>
             </div>
           </div>
