@@ -62,6 +62,13 @@ const Location = () => {
                         <p>Monday - Saturday: 8:00 AM - 4:00 PM</p>
                         <p>Sunday: 9:00 AM - 4:00 PM</p>
                       </div>
+
+                      <p className="font-medium text-coffee-dark">
+                        Opening Hours over 2025 festive season
+                      </p>
+                      <div className="text-muted-foreground space-y-1">
+                        <p>Monday - Sunday: 9:00 AM - 3:00 PM</p>
+                      </div>
                     </div>
                   </div>
 
