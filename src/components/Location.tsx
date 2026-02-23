@@ -67,7 +67,7 @@ const Location = () => {
                         Amended Opening Hours
                       </p>
                       <div className="text-muted-foreground space-y-1">
-                        <p>23 February 2026: closed</p>
+                        <p>24 February 2026: closed for maintenance</p>
                         {/* <p>26 December 2025 & 1 January 2026: Closed</p> */}
                       </div>
                     </div>
