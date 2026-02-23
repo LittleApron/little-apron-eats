@@ -35,7 +35,7 @@ const Footer = () => {
 
           {/* Hours */}
           <div>
-            <h3 className="font-semibold mb-4">Opening Hours</h3>
+            <h3 className="font-semibold mb-4">Regular Opening Hours</h3>
             <div className="space-y-2 text-sm text-cream/80">
               <div className="flex justify-between">
                 <span>Mon - Sat:</span>
@@ -47,12 +47,12 @@ const Footer = () => {
               </div>
 
               <div className="flex justify-between">
-                <span>Monday - Sunday over 2025 festive season:</span>
-                <span>9:00 AM - 3:00 PM</span>
+                <span>24 February 2026:</span>
+                <span>closed</span>
               </div>
-              <div className="flex justify-between">
+              {/* <div className="flex justify-between">
                 <span>26 December 2025 & 1 January 2026 - Closed</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
