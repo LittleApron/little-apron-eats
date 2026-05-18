@@ -38,22 +38,23 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Regular Opening Hours</h3>
             <div className="space-y-2 text-sm text-cream/80">
               <div className="flex justify-between">
-                <span>Mon - Sat:</span>
-                <span>8:00 AM - 4:00 PM</span>
+                <span>Mon - Fri:</span>
+                <span>8:00 AM - 3:00 PM</span>
               </div>
               <div className="flex justify-between">
                 <span>Sunday:</span>
-                <span>9:00 AM - 4:00 PM</span>
+                <span>9:00 AM - 3:00 PM</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Saturday:</span>
+                <span>9:00 AM - 3:30 PM</span>
               </div>
             </div>
-            <h3 className="font-semibold mb-4">Amended Opening Hours</h3>
+            {/* <h3 className="font-semibold mb-4">Amended Opening Hours</h3>
             <div className="flex justify-between">
               <span>24 February 2026:</span>
               <span>closed</span>
-            </div>
-            {/* <div className="flex justify-between">
-                <span>26 December 2025 & 1 January 2026 - Closed</span>
-              </div> */}
+            </div> */}
           </div>
         </div>
 
