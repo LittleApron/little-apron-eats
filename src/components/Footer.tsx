@@ -77,7 +77,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-sm text-cream/60">
-              © 2025 Little Apron. All rights reserved.
+              © 2026 Little Apron. All rights reserved.
             </p>
           </div>
         </div>
