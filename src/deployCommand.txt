@@ -1,4 +1,2 @@
 git push origin main - if not synced aleady
 npm run deploy
-
-github test
